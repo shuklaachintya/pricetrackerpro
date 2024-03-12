@@ -10,7 +10,7 @@
     "start": "node server.js",
     "client-install": "cd frontend && npm install",
     "client-start": "cd frontend && npm start",
-    "build": "cd frontend && npm run build",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
     "dev": "concurrently \"nodemon server\" \"npm start --prefix frontend\""
   },
