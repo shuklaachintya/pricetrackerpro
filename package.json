@@ -28,11 +28,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.7",
     "puppeteer": "^5.3.1",
-    "uuid": "^8.3.1",
-    "@babel/plugin-transform-private-property-in-object": "7.23.4"
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   }
