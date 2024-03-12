@@ -1,10 +1,7 @@
 {
-  "name": "amazon-tracker",
+  "name": "pricetrackerpro",
   "version": "1.0.0",
   "description": "an app to track amazon product price",
-  "engines": {
-    "node": "12.16.2"
-  },
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
